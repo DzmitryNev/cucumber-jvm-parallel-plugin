@@ -45,6 +45,7 @@ public final class PluginFactory {
         put("pretty", PrettyFormatter.class);
         put("progress", ProgressFormatter.class);
         put("json", JSONFormatter.class);
+        put("lazy-json", LazyJSONFormatter.class);
         put("usage", UsageFormatter.class);
         put("rerun", RerunFormatter.class);
         put("default_summary", DefaultSummaryPrinter.class);
